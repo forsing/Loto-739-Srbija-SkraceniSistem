@@ -4,7 +4,7 @@
 
 
 """
-cd /Users/4c/Desktop/GHQ/kurzor/loto-serbia-ai-main
+cd /
 streamlit run lotto_ai/gui/app.py
 """
 
@@ -1181,13 +1181,13 @@ ili wheeling za kombinatorne garancije. Igrajte odgovorno — lutrija je zabava,
 
 
 Tiket 1 (Coverage-Optimized) 
-02 03 06 14 28 35 38 
+02 03 x y z 35 38 
 
 Tiket 2 (Coverage-Optimized) 
-03 04 09 10 27 33 36 
+03 04 x y z 33 36 
 
 Tiket 3 (Coverage-Optimized) 
-01 05 12 25 30 32 36
+01 x 12 y 30 z 36
 """
 
 
@@ -1243,4 +1243,7 @@ Slabije strane
 Složenost session state-a: mnogo ključeva (mc_stats, baseline_stats, strategija, itd.) — veća šansa za nus-effekte pri rerun tokovima ako se proširuje UI.
 
 Wheeling / garancija: NE daje minimalni broj kombinacija za garanciju.
+
+Baza svih do sad izvucenih kombinacija nije imala sve kombinacije 
+(sad ima trenutno svih 4596 kombinacija 30.07.1985.- 10.04.2026.).
 """
