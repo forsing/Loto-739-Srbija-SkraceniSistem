@@ -1,0 +1,4 @@
+"""
+Loto Serbia AI package.
+"""
+
