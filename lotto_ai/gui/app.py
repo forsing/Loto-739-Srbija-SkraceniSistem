@@ -1,4 +1,4 @@
-# Inspiration - Inspiracija
+# Inspiracija/Nadogradnja - Inspiration/Upgrade
 ## https://github.com/filipseva96/loto-serbia-ai-main
 
 
